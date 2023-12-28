@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: whitesmoke;
+}
+
+.navbar {
+  background: #add5fa;
+}
+
+.navbar a {
+  font-family: monospace;
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.carousel img {
+  height: 30rem;
+  padding: 30px;
+}
+
+.row {
+  margin-top: 1rem;
+}
+
+.last-row {
+  margin-bottom: 2.5rem;
+}
+
+.card {
+  width: 20rem;
+  border-radius: 15px;
+  border: solid 3px #add5fa;
+  margin: auto;
+  background: whitesmoke;
+}
+
+.card img {
+  display: block;
+  margin: auto;
+  width: 19.7rem;
+  height: 12rem;
+  border-top-right-radius: 14px;
+  border-top-left-radius: 14px;
+}
+
+.card h2 {
+  font-family: monospace;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.card p {
+  font-family: monospace;
+  font-size: large;
+}
+
+.card .btn {
+  font-family: monospace;
+  font-size: medium;
+  border-radius: 25px;
+  border: solid 3px #f9d99a;
+  background: #add5fa;
+  color: black;
+}
+
+.card .btn:hover {
+  background: #f9d99a;
+  border: solid 3px #add5fa;
+}
+
+.modal-content {
+  background: whitesmoke;
+}
+
+.modal-content h3 {
+  font-family: monospace;
+  font-size: larger;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.modal-body {
+  background: whitesmoke;
+}
+
+.modal-body ul {
+  list-style: none;
+  font-family: monospace;
+  font-size: large;
+  text-align: left;
+}
+
+.productos span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  width: 1.5rem;
+  height: 1.5rem;
+  font-size: 12px;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  background: #add5fa;
+  border: solid 3px #f9d99a;
+  border-radius: 100%;
+}
+
+.productos span:hover {
+  background: #f9d99a;
+  border: solid 3px #add5fa;
+}
+
+.total-final {
+  font-family: monospace;
+  font-size: large;
+  font-weight: bold;
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+
+.modal-footer .ir-a-pagar {
+  font-family: monospace;
+  font-size: medium;
+  text-decoration: none;
+  border-radius: 25px;
+  border: solid 3px #f9d99a;
+  background: #add5fa;
+  color: black;
+  width: 8rem;
+  height: 2rem;
+}
+
+.modal-footer .ir-a-pagar:hover {
+  background: #f9d99a;
+  border: solid 3px #add5fa;
+}
+
+.modal-footer .ir-a-pagar a {
+  text-decoration: none;
+  color: black;
+}
+
+/*Ir a pagar*/
+
+.container {
+  width: 30%;
+  background: whitesmoke;
+  padding: 10px;
+  border: solid 3px #add5fa;
+  border-radius: 25px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.container input {
+  width: 60%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: solid 3px #add5fa;
+  font-family: monospace;
+  font-size: large;
+  text-align: center;
+}
+
+.container .pagar {
+  font-family: monospace;
+  font-size: medium;
+  text-decoration: none;
+  border-radius: 25px;
+  border: solid 3px #f9d99a;
+  background: #add5fa;
+  color: black;
+  width: 7rem;
+  height: 2rem;
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container .pagar:hover {
+  background: #f9d99a;
+  border: solid 3px #add5fa;
+}
+
+#carrito-producto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+#cantidades {
+  width: 3rem;
+}
